@@ -1,0 +1,60 @@
+body {
+    background-color: #213122;
+}
+h2 {
+    font-variant: small-caps;
+    font-size: 42px;
+    color: #44eb52f3;
+    text-align: center;
+}
+h1 {
+    font-family: 'Courier New';
+    font-size: 14px;
+    color:#213122;
+    text-align: right;
+}
+#cidade {
+    padding-bottom: 10px;
+}
+table {
+    margin: auto;
+}
+td.morta {
+    border: 1px solid  rgb(170, 235, 170); /*cor de contorno das células*/
+    background-color: rgb(160, 197, 160); /*cor das células*/
+    border-radius: 2px;
+    width: 15px;
+    height: 15px;
+}
+td.viva {
+    background-color:#42df4ff3; /*cor de cada célula viva*/
+} 
+#btniniciarparar {
+    background:#2fd83df3;
+    border-radius:100px;
+    padding: 8px;
+    width: 50px;
+    position: fixed;
+    left: calc(0vw + 100px/2);
+    top: 578px;
+}
+#btnnovacidade {
+    background:#2fd83df3;
+    border-radius:100px;
+    padding: 8px;
+    width: 50px;
+    position: fixed;
+    left: calc(2vw + 300px/2);
+    top: 578px;
+}
+.rodapé{
+    width: 68%;
+    padding-bottom: 0%;
+    margin: 2%;
+    float: right;
+}
+.texto {
+    display: inline-block;
+    width: 103%;
+    background:rgb(160, 197, 160); /*cor do rodpé*/
+ }
